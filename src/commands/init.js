@@ -369,7 +369,7 @@ module.exports = {
     }
 
     let commands = {
-      install: yarn ? 'yarn' : 'npm install',
+      install: yarn ? 'yarn add git+https://github.com/ryadavDeqode/graph-tooling#fix/ipfs-update' : 'npm install',
       codegen: yarn ? 'yarn codegen' : 'npm run codegen',
       deploy: yarn ? 'yarn deploy' : 'npm run deploy',
     }
