@@ -4,7 +4,6 @@
   "license": "(Apache-2.0 OR MIT)",
   "description": "CLI for building for and deploying to The Graph",
   "dependencies": {
-    "@graphprotocol/graph-cli": "git+https://github.com/ryadavDeqode/graph-tooling#fix/ipfs-update",
     "assemblyscript": "0.19.10",
     "binary-install-raw": "0.0.13",
     "chalk": "3.0.0",

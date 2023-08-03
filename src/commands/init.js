@@ -727,12 +727,12 @@ const initSubgraphFromExample = async (
     return
   }
 
-  // Install dependencies
-  let installed = await installDependencies(toolbox, directory, commands.install)
-  if (installed !== true) {
-    process.exitCode = 1
-    return
-  }
+  // // Install dependencies
+  // let installed = await installDependencies(toolbox, directory, commands.install)
+  // if (installed !== true) {
+  //   process.exitCode = 1
+  //   return
+  // }
 
   // Run code-generation
   let codegen = await runCodegen(toolbox, directory, commands.codegen)
@@ -839,12 +839,12 @@ const initSubgraphFromContract = async (
     return
   }
 
-  // Install dependencies
-  let installed = await installDependencies(toolbox, directory, commands.install)
-  if (installed !== true) {
-    process.exitCode = 1
-    return
-  }
+  // // Install dependencies
+  // let installed = await installDependencies(toolbox, directory, commands.install)
+  // if (installed !== true) {
+  //   process.exitCode = 1
+  //   return
+  // }
 
   // Run code-generation
   let codegen = await runCodegen(toolbox, directory, commands.codegen)
